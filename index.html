@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <link rel="stylesheet" href="./port.css" type="text/css" />
+
+    <!---------------------------Fonts used------------------------------------------------------>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-----------------------------CSS Link---------------------------------------------->
+
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!------------------------------WebSite Title ------------------------------------------>
+    <title>Jeysaravanan Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="./Picsart_24-06-23_13-41-18-836.png">
+  </head>
+
+  <body>
+    <!-- navbar -->
+
+    <nav id="nav">
+      <div class="navbar__nav">
+        <div class="navbar__container">
+          <div class="navbar__row">
+            <div class="navbar__logo">
+              <img src="./js-logo-monogram-with-shield-shape-design-template-700-191060971-removebg-preview (1).png" style="height: 50px ; width:50px;" alt="Simone Logo" />
+            </div>
+
+            <div class="navbar__listItem">
+              <ul>
+                <li class="item item__active"><a href="#home">Home</a></li>
+                <li class="item"><a href="#about">About</a></li>
+                <li class="item"><a href="#service">What I Do</a></li>
+                <li class="item"><a href="#summary">Resume</a></li>
+                <!-- <li class="item"><a href="#portfolio">Portfolio</a></li> -->
+                <li class="item"><a href="#contact">Contact</a></li>
+              </ul>
+            </div>
+            <div class="navbar__listItem--mobile">
+              <input type="checkbox" id="btnControl" />
+              <label class="navbar__barIcon" for="btnControl"
+                ><i class="fas fa-bars"></i
+              ></label>
+
+              <ul class="mobileList">
+                <li class="mobileItem"><a href="#home">Home</a></li>
+                <li class="mobileItem"><a href="#about">About</a></li>
+                <li class="mobileItem"><a href="#service">What I Do</a></li>
+                <li class="mobileItem"><a href="#summary">Resume</a></li>
+                <!-- <li class="mobileItem"><a href="#portfolio">Portfolio</a></li> -->
+
+                <li class="mobileItem"><a href="#contact">Contact</a></li>
+              </ul>
+            </div>
+            <div class="navbar__socialItem">
+              
+              <ul>
+                <li class="socialItem">
+                  <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/jeysaravanan-s/"
+                    ><i class="fa-brands fa-linkedin"></i></a
+                  ><span class="tooltiptext__fb">LinkedIn</span>
+                </li>
+                <li class="socialItem">
+                  <a target="_blank" rel="noopener noreferrer" href="https://github.com/Jeysaravanan"
+                    ><i class="fa-brands fa-github"></i></a
+                  ><span class="tooltiptext__tw">Twitter</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Home -->
+    <header id="home">
+      <div class="home__Container">
+        <div class="home__bgLayer">
+          <div class="home__Caption">
+            <h3 class="home__intro">Welcome</h3>
+            <h1 class="home__title">I'm Jeysaravanan</h1>
+            <p class="home__desc">Data analyst</p>
+            <a href="mailto:abc@example.com" class="home__button">Hire Me</a>
+            <div class="home__arrow--click">
+              <a href="#about"><i class="fa-solid fa-chevron-down"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- about -->
+    <section id="about">
+      <div class="about__Container">
+        <h2 class="titleBackground">
+          About Me
+          <p class="text__overlap">Know Me More</p>
+        </h2>
+        <div class="about__desc">
+          <div class="about__parag">
+            <h2 class="about__title">
+              I'm <span class="aboutTitle__span">Jeysaravanan, </span>Data
+              analyst
+            </h2>
+            <p class="aboutParag__desc">
+              A passionate data analyst with a Masters degree in Computer
+              Applications from Kongu Engineering College. With hands-on
+              experience in data analysis, visualization, and statistical
+              modeling, I excel at transforming complex data into actionable
+              insights. My expertise spans across tools such as Python, SQL,
+              Tableau, and Excel, and I am committed to driving strategic
+              business decisions through data-driven solutions. I invite you to
+              explore my portfolio to see the impactful projects I’ve worked on
+              and look forward to connecting with you.
+            </p>
+            <p class="aboutParag__desc"></p>
+          </div>
+          <div class="about__table">
+            <ul>
+              <li class="aboutTable__list"><b>Name:</b> Jeysaravanan S</li>
+              <li class="aboutTable__list">
+                <b>Email:</b>
+                <span class="aboutTable__list--active"
+                  >Jeysaravanan.nct@gmail.com</span
+                >
+              </li>
+              <li class="aboutTable__list"><b>Age:</b> 21</li>
+              <li class="aboutTable__list"><b>From:</b> Karur,Tamilnadu</li>
+            </ul>
+            <a
+              class="about__button--active"
+              href="./23MCR037_Jeysaravanan.pdf"
+              target="_blank"
+              >Download CV</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section id="service">
+      <div class="services__Container">
+        <h2 class="titleBackground">
+          Services
+          <p class="text__overlap">What I Do?</p>
+        </h2>
+
+        <div class="services__cards">
+          <div class="service__row">
+            <div class="services__card">
+              <div class="icon__container">
+                <div class="card__icon">
+                  <i class="fas fa-chart-area"></i>
+                </div>
+              </div>
+              <div class="card__data">
+                <h3 class="card__title">Dashboard creation</h3>
+
+                <p class="card__desc">
+                  Design and develop interactive and dynamic dashboards using
+                  tools like Tableau and Power BI to present data in a clear and
+                  actionable format.
+                </p>
+              </div>
+            </div>
+
+            <div class="services__card">
+              <div class="icon__container">
+                <div class="card__icon">
+                  <i class="fa-solid fa-database"></i>
+                </div>
+              </div>
+              <div class="card__data">
+                <h3 class="card__title">Database Management</h3>
+                <p class="card__desc">
+                  Skilled in managing SQL databases, performing complex joins,
+                  and optimizing queries for large-scale data operations.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="service__row">
+            <div class="services__card">
+              <div class="icon__container">
+                <div class="card__icon">
+                  <i class="fas fa-code"></i>
+                </div>
+              </div>
+              <div class="card__data">
+                <h3 class="card__title">Data Processing and Analysis</h3>
+                <p class="card__desc">
+                  Strong capabilities in data manipulation and analysis using
+                  Python libraries such as Pandas, NumPy, and SciPy. Proficient
+                  in scripting to automate data workflows. Expert in leveraging
+                  Excel for data analysis, including pivot tables, VLOOKUP, and
+                  advanced formulas to synthesize and visualize data.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Summary -->
+    <section id="summary">
+      <div class="summary__Container">
+        <h2 class="titleBackground">
+          Summary
+          <p class="text__overlap">Resume</p>
+        </h2>
+
+        <div class="resume__container">
+          <div class="resume__column">
+            <h2 class="resume__title">My Education</h2>
+            <div class="resume__card">
+              <p class="card__year">2020 - 2023</p>
+              <h3 class="card__title">Bachelor Degree</h3>
+              <p class="card__subtitle">National College, Trichy.</p>
+              <p class="card__desc">
+                
+              </p>
+            </div>
+            <div class="resume__card">
+              <p class="card__year">2023 - 2025</p>
+              <h3 class="card__title">Master Degree</h3>
+              <p class="card__subtitle">Kongu Engineering College, Erode.</p>
+              <p class="card__desc">
+                
+              </p>
+            </div>
+          </div>
+
+          <div class="resume__column">
+            <h2 class="resume__title">My Experience</h2>
+            <div class="resume__card">
+              <p class="card__year">Jan 2023 - Apr 2023</p>
+              <h3 class="card__title">Data Analytics Intern</h3>
+              <p class="card__subtitle">Ceasura Technologies</p>
+              <p class="card__desc">
+                
+              </p>
+            </div>
+            <div class="resume__card">
+              <p class="card__year">Feb 2024</p>
+              <h3 class="card__title">Frontend Development Intern</h3>
+              <p class="card__subtitle">Inspire Softech Solutions</p>
+              <p class="card__desc">
+              
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <h2 class="skills__title">My Skills</h2>
+        <div class="resume__container">
+          <div class="skills__column">
+            <div class="skill__bar">
+              <p class="bar__label">Excel</p>
+              <p class="bar__label--perc">85%</p>
+              <div class="progress__wd">
+                <div class="progressValue__wd"></div>
+              </div>
+            </div>
+
+            <div class="skill__bar">
+              <p class="bar__label">HTML/CSS</p>
+              <p class="bar__label--perc">85%</p>
+              <div class="progress__htmlCSS">
+                <div class="progressValue__htmlCSS"></div>
+              </div>
+            </div>
+
+            <div class="skill__bar">
+              <p class="bar__label">JavaScript</p>
+              <p class="bar__label--perc">60%</p>
+              <div class="progress__js">
+                <div class="progressValue__js"></div>
+              </div>
+            </div>
+          </div>
+          <div class="skills__column">
+            <div class="skill__bar">
+              <p class="bar__label">Power BI</p>
+              <p class="bar__label--perc">70%</p>
+              <div class="progress__react">
+                <div class="progressValue__react"></div>
+              </div>
+            </div>
+
+            <div class="skill__bar">
+              <p class="bar__label">TableAU</p>
+              <p class="bar__label--perc">60%</p>
+              <div class="progress__angular">
+                <div class="progressValue__angular"></div>
+              </div>
+            </div>
+
+            <div class="skill__bar">
+              <p class="bar__label">SQL</p>
+              <p class="bar__label--perc">90%</p>
+              <div class="progress__bootstrap">
+                <div class="progressValue__bootstrap"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="button__container">
+          <a
+            class="summary__button"
+            href="./23MCR037_Jeysaravanan.pdf"
+            target="_blank"
+            >Download CV&nbsp<i class="fa-sharp fa-solid fa-download"></i
+          ></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio -->
+    <!-- <section id="portfolio">
+      <div class="portfolio__Container">
+        <h2 class="titleBackground">
+          Portfolio
+          <p class="text__overlap">My Work</p>
+        </h2>
+      </div>
+
+      <ul class="portfolio__type">
+        <li class="type__item item--active"><a href="#">All</a></li>
+        <li class="type__item"><a href="#">Design</a></li>
+        <li class="type__item"><a href="#">Brand</a></li>
+        <li class="type__item"><a href="#">Photos</a></li>
+      </ul>
+      <div class="portfolio__gallery">
+        <div class="photo__item">
+          <img
+            class="gallery__photo"
+            src="./Assets/img/project-1.jpg"
+            alt="project 1 image"
+          />
+          <div class="project__desc">
+            <div class="desc__container">
+              <h3 class="project__title">Project Title</h3>
+              <p class="project__category">Category</p>
+            </div>
+          </div>
+        </div>
+        <div class="photo__item">
+          <img
+            class="gallery__photo"
+            src="./Assets/img/project-4.jpg"
+            alt="project 4 image"
+          />
+          <div class="project__desc">
+            <div class="desc__container">
+              <h3 class="project__title">Project Title</h3>
+              <p class="project__category">Category</p>
+            </div>
+          </div>
+        </div>
+        <div class="photo__item">
+          <img
+            class="gallery__photo"
+            src="./Assets/img/project-2.jpg"
+            alt="project 2 image"
+          />
+          <div class="project__desc">
+            <div class="desc__container">
+              <h3 class="project__title">Project Title</h3>
+              <p class="project__category">Category</p>
+            </div>
+          </div>
+        </div>
+        <div class="photo__item">
+          <img
+            class="gallery__photo"
+            src="./Assets/img/project-7.jpg"
+            alt="project 7 image"
+          />
+          <div class="project__desc">
+            <div class="desc__container">
+              <h3 class="project__title">Project Title</h3>
+              <p class="project__category">Category</p>
+            </div>
+          </div>
+        </div>
+        <div class="photo__item">
+          <img
+            class="gallery__photo"
+            src="./Assets/img/project-3.jpg"
+            alt="project 3 image"
+          />
+          <div class="project__desc">
+            <div class="desc__container">
+              <h3 class="project__title">Project Title</h3>
+              <p class="project__category">Category</p>
+            </div>
+          </div>
+        </div>
+        <div class="photo__item">
+          <img
+            class="gallery__photo"
+            src="./Assets/img/project-5.jpg"
+            alt="project 5 image"
+          />
+          <div class="project__desc">
+            <div class="desc__container">
+              <h3 class="project__title">Project Title</h3>
+              <p class="project__category">Category</p>
+            </div>
+          </div>
+        </div>
+        <div class="photo__item">
+          <img
+            class="gallery__photo"
+            src="./Assets/img/project-6.jpg"
+            alt="project 6 image"
+          />
+          <div class="project__desc">
+            <div class="desc__container">
+              <h3 class="project__title">Project Title</h3>
+              <p class="project__category">Category</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <!-- Contact -->
+    <section id="contact">
+      <div class="contact__Container">
+        <h2 class="titleBackground">
+          Contact
+          <p class="text__overlap">Get in Touch</p>
+        </h2>
+
+        <div class="contact__wrap">
+          <div class="contact__data">
+            <h2 class="contactData__title">Address</h2>
+            <p class="contactData__address">
+              1/1 North street, Palaviduthi,
+              <br />
+              Kadavoor, Karur ,
+              <br />
+              Tamilnadu.
+            </p>
+            <p class="contact__text">
+              <span class="address__icon"
+                ><i class="fa-solid fa-phone"></i
+              ></span>
+              (+91)9159322662
+            </p>
+            <p class="contact__text last__parag">
+              <span class="address__icon"
+                ><i class="fa-solid fa-envelope"></i
+              ></span>
+              jeysaravanan.nct@gmail.com
+            </p>
+            <h2 class="contactData__title">Follow Me</h2>
+
+            <ul class="follow__icons">
+              <li class="follow__item">
+                <a href="https://x.com/@sj_offl_" target="_blank" class="fa-brands fa-twitter" style="text-decoration: none;color: rgb(43, 221, 153);"> <a>
+                <span class="tooltiptext__tw">Twitter/X</span>
+              </li>
+              <li class="follow__item"><a
+                href="https://www.instagram.com/sj_saran_/"
+                target="_blank" class="fa-brands fa-instagram" style="text-decoration: none;color: rgb(43, 221, 153);"></i> </a>
+                <span class="tooltiptext__go">Instagram</span>
+              </li>
+              <li class="follow__item">
+                <a
+                href="https://www.linkedin.com/in/jeysaravanan-s/"
+                target="_blank" class="fa-brands fa-linkedin" style="text-decoration: none;color: rgb(43, 221, 153);"> </a>
+                <span class="tooltiptext__gh">LinkedIn</span>
+              </li>
+              <li class="follow__item">
+                <a
+                href="https://github.com/Jeysaravanan"
+                target="_blank" class="fa-brands fa-github" style="text-decoration: none;color: rgb(43, 221, 153);"></a>
+                <span class="tooltiptext__gh">GitHub</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="contact__form">
+            <h2 class="contactData__title">SEND US A NOTE</h2>
+            <form action="" method="GET">
+              <input
+                name="name"
+                type="text"
+                class="form__input"
+                required=""
+                placeholder="Name"
+              />
+              <input
+                name="email"
+                type="email"
+                class="form__input"
+                required=""
+                placeholder="Email"
+              />
+              <div class="text__container">
+                <textarea
+                  name="text_msg"
+                  class="form__input"
+                  rows="5"
+                  required=""
+                  placeholder="Tell us more about your needs......"
+                ></textarea>
+              </div>
+              <div class="send__button">
+                <a href="mailto:abc@example.com" class="form__button"
+                  >Send Message</a
+                >
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="footer__container">
+      <p class="footer__desc">
+        Jeysaravanan 
+        <a href="#" class="footer__link"></a> 
+      </p>
+     
+
+    <!-------------------------- JS text.js extension script ----------------------->
+    
+  </body>
+</html>
